@@ -7,13 +7,19 @@
 </head>
 <body>
 	<div id="container">
-		<div id="weather">
-			Current Weather
+		<div>
+			Current Weather: <span id="weather-status"></span>
+		</div>
+		<div id="current-temp">
+			<h1>Current Temp</h1>
+		</div>
+		<div id="wind-speed">
+			<h1>Wind Speed</h1>
 		</div>
 		<div id="input">
 			<input type="text" id="location" placeholder="Enter City" />
 			<br><br>
-  			<a href="#" class="btn" id="getweather">Get Weather</a>
+  			<input type="submit" id="get-weather" value="submit">
 		</div>
 	</div>
 
@@ -21,11 +27,4 @@
 	<script src="js/index.js"></script>
 </body>
 </html>
-
-
-Add the following parameter to the GET request: APPID=APIKEY 
-Example: api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=1111111111
-9403c3dd607aa6de82eb7a7da2443a1d
-
-api.openweathermap.org/data/2.5/weather?q=London,uk
 
