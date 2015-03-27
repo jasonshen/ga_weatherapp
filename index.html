@@ -7,19 +7,36 @@
 </head>
 <body>
 	<div id="container">
-		<div>
-			Current Weather: <span id="weather-status"></span>
-		</div>
-		<div id="current-temp">
-			<h1>Current Temp</h1>
-		</div>
-		<div id="wind-speed">
-			<h1>Wind Speed</h1>
-		</div>
-		<div id="input">
-			<input type="text" id="location" placeholder="Enter City" />
+		<div id="stuff">
+			<div>
+				For <span id="city-name"><span>
+			</div>
+			<div>
+				Current weather is <span id="weather-status"></span>
+			</div>
+			<div>
+				It's <span id="current-temp"></span> Degrees Farenheit
+			</div>
+			<div >
+				The wind speed is <span id="wind-speed"></span> meters/sec
+			</div>
+			<div >
+				Tomorrow's weather will be <span id="tomorrow"></span>
+			</div>
+			<div >
+				Day after tomorrow's weather will be <span id="2-days"></span>
+			</div>
 			<br><br>
-  			<input type="submit" id="get-weather" value="submit">
+			<div>
+				<ul id="list">
+				</ul>
+			</div>
+			
+			<div id="input">
+				<input type="text" id="location" placeholder="Enter City" />
+				<br><br>
+	  			<input type="submit" id="get-weather" value="submit">
+			</div>
 		</div>
 	</div>
 

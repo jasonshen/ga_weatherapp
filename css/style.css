@@ -6,17 +6,16 @@
      border: 1px black solid;
 }
 
-#weather {
+#stuff {
 	width: 600px;
 	margin: 0px auto;
 	padding:20px;
-	text-align: center;
+	
 }
 
 #input {
 	width: 600px;
 	margin: 0px auto;
 	padding:20px;
-	text-align: center;
 
 }
